@@ -1,0 +1,33 @@
+$color-black:#000;
+$color-red:#FF2E0F;
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+    a{
+        color:$color-black;
+        text-decoration: none;
+    }
+
+    &__title{
+        font-size: 20px;
+    }
+    &__list{
+        list-style:none;
+        display: flex;
+    }
+    &__listItem{
+        margin-left: 60px;
+    }
+    &__checked{
+        a{
+            color:$color-red;
+        }
+    }
+}
