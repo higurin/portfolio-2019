@@ -1,0 +1,42 @@
+
+.work{
+
+    &__box{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    &__title{
+        font-family: $font-mincho;
+        font-size: $font-size-h1;
+        border-bottom: 1px solid $color-gray;
+    }
+
+    &__list{
+        list-style:none;
+    }
+    &__listItem{
+        border-bottom: 1px solid $color-gray;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    &__listItemBlock{
+        padding-right: 30px;
+        display: inline-block;
+    }
+
+    &__item1{
+        width: 20%;
+    }
+    &__item2{
+        width: 50%;
+    }
+    &__item3{
+        width: 30%
+    }
+
+
+
+}

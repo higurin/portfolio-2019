@@ -1,0 +1,35 @@
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+
+    &__box{
+        width: 45%;
+    }
+    &__left{
+        order: 0;
+        text-align: center;
+    }
+    &__right{
+        order:1;
+    }
+    &__title{
+        margin-bottom: 10px;
+        font-family: $font-mincho;
+        font-size: $font-size-h1;
+    }
+    &__text{
+        margin-bottom: 10px;
+    }
+    &__more{
+        a{
+            color: $color-main-green;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+    }
+}

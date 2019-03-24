@@ -1,2 +1,25 @@
+$font-mincho:"ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho,"HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+$font-size-h1:38px;
+
+
+$color-black:#000;
+$color-red:#FF2E0F;
+$color-main-green:#7BDCB5;
+$color-gray:#ebebeb;
+
+// Colors
+$dark-gray: #6b7c93;
+$white: #fff;
+$border-rounded: 34px;
+
+
 @import "_header";
 @import "_main";
+@import "_aboutMe";
+@import "_work";
+@import "_skill";
+@import "_footer";
+
+
+
+

@@ -1,0 +1,42 @@
+.skill{
+
+    &__box{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    &__boxItem{
+        display: flex;
+        align-items: center;
+        border-top: 1px solid $color-gray;
+        border-bottom: 1px solid $color-gray;
+
+    }
+    &__title{
+        font-size: $font-size-h1;
+        font-family: $font-mincho;
+        border-bottom: 1px solid $color-gray;
+        
+    }
+    &__list{
+        list-style:none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        padding-top: 10px;
+
+    }
+    &__listItem{
+        width: 33%;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+    &__listStudy{
+        width:20%;
+        color: #bbb;
+
+    }
+
+
+}

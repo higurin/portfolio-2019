@@ -1,0 +1,52 @@
+
+.main{
+    &__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        width: 100%;
+    }
+    &__boxItem{
+        font-family:  $font-mincho;
+
+        width: 40%;
+
+    }
+
+    &__title{
+        font-size: 54px;
+
+    }
+    &__text{
+        font-size: 28px;
+        color: #FEAD06;
+    }
+
+    &__button{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        //Button Link
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #fff;
+        //Button shape & animation
+        border-radius: $border-rounded;
+
+        padding: 1em 2.5em;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+        background-image: linear-gradient(to right, #F9F586 0%, #96FBC4 50%, #895cf2 100%);
+        transition: 0.5s;
+        &:hover {
+        background-position: right center;
+        }
+    }
+}

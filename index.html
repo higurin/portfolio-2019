@@ -8,89 +8,113 @@
   <title>Rika's Portfolio - 2019</title>
   <link href="dist/css/ress.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="dist/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script src="dist/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="dist/js/main.js"></script>
 
 </head>
 
 <body>
-  <header class="header">
+  <header id="head" class="header">
     <h1 class="header__title"><a href="#">Rika’s Portfolio</a></h1>
     <ul class="header__list">
       <li class="header__listItem header__checked"><a href="#">About</a></li>
       <li class="header__listItem"><a href="#">Portfolio</a></li>
       <li class="header__listItem">
-        <a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="dist/img/Facebook.png" alt="Facebook"></a>
       </li>
     </ul>
   </header>
   <main class="main">
 
-    <h1>Rika Higuchi</h1>
-    <p>UI / UX / Web Designer</p>
+    <div class="main__box">
+      <div class="main__boxItem">
+        <h1 class="main__title">Rika Higuchi</h1>
+        <p class="main__text">UI / UX / Web Designer</p>
+      </div>
+      <p class="main__boxItem"><img src="dist/img/rh.png" alt="樋口梨花の写真"></p>
+    </div>
 
 
-    <article>
-      <h1>About me</h1>
-      <p>初めまして！樋口梨花と申します。
-        UI, UXやWebデザインに興味があり、デザイナーを目指しています。
-        表現することが好きで、幼い頃から絵や音楽に没頭してきました。
-        幼少期から続けてきたピアノでのスランプを経験し、ITの力で、人々がもっと自由に表現活動を行えるようにサポートしたいと思い、現在の大学院での研究活動に繋がりました。
-        ピアノ歴20年、剣道3段、お花屋さんでアルバイトをしています。
-      </p>
-      <p>もっと詳しく知る →</p>
+    <article class="aboutMe">
+      <div class="aboutMe__box aboutMe__right">
+        <h1 class="aboutMe__title">About me</h1>
+        <p class="aboutMe__text">初めまして！樋口梨花と申します。<br>
+          UI, UXやWebデザインに興味があり、デザイナーを目指しています。<br><br>
+          表現することが好きで、幼い頃から絵や音楽に没頭してきました。
+          幼少期から続けてきたピアノでのスランプを経験し、ITの力で、人々がもっと自由に表現活動を行えるようにサポートしたいと思い、現在の大学院での研究活動に繋がりました。<br><br>
+          ピアノ歴20年、剣道3段、お花屋さんでアルバイトをしています。
+        </p>
+        <p class="aboutMe__more"><a href="">もっと詳しく知る →</a></p>
+      </div>
+      <div class="aboutMe__box aboutMe__left"><img src="dist/img/shape-1.svg" alt=""></div>
     </article>
-    <article>
-      <h1>Work Experience</h1>
-      <ul>
-        <li>
-          2019 / 02　ヤフー株式会社　HTML / CSS
-        </li>
-        <li>
-          2018 / 09 株式会社エイチーム　UI, UX design
-        </li>
-        <li>
-          2016 / 08　ハコレコドットコム株式会社　Web design & coding
-        </li>
-      </ul>
+    <article class="work">
+      <div class="work__box">
+        <h1 class="work__title">Work Experience</h1>
+        <ul class="work__list">
+          <li class="work__listItem">
+            <span class="work__listItemBlock work__item1">2019 / 02</span><span class="work__listItemBlock work__item2">ヤフー株式会社</span><span class="work__listItemBlock work__item3">HTML / CSS</span>
+          </li>
+          <li class="work__listItem">
+            <span class="work__listItemBlock work__item1">2018 / 09</span><span class="work__listItemBlock work__item2">株式会社エイチーム</span><span class="work__listItemBlock work__item3">UI, UX design</span>
+          </li>
+          <li class="work__listItem">
+            <span class="work__listItemBlock work__item1">2016 / 08</span><span class="work__listItemBlock work__item2">ハコレコドットコム株式会社</span><span class="work__listItemBlock work__item3">Web design & coding</span>
+          </li>
+        </ul>
+      </div>
     </article>
-    <article>
-      <h1>Knowledge & Skills</h1>
-      <ul>
-        <li>HTML5 / CSS3</li>
-        <li>Java Script</li>
-        <li>jQuery</li>
-        <li>Illustrator/li>
-        <li>Photoshop</li>
-        <li>Sketch / XD</li>
-        <li>Python</li>
-        <li>C</li>
-        <li>Java</li>
-      </ul>
-      <ul>
-        <li>Git</li>
-        <li>Sass</li>
-        <li>BEM</li>
-        <li>Node.js</li>
-        <li>npm</li>
-        <li>gulp</li>
-        <li>Yarn</li>
-        <li>React</li>
-        <li>WordPress</li>
-      </ul>
-      <p>→ Studying</p>
+    <article class="skill">
+      <div class="skill__box">
+        <h1 class="skill__title">Knowledge & Skills</h1>
+        <ul class="skill__list">
+          <li class="skill__listItem">HTML5 / CSS3</li>
+          <li class="skill__listItem">Java Script</li>
+          <li class="skill__listItem">jQuery</li>
+          <li class="skill__listItem">Illustrator</li>
+          <li class="skill__listItem">Photoshop</li>
+          <li class="skill__listItem">Sketch / XD</li>
+          <li class="skill__listItem">Python</li>
+          <li class="skill__listItem">C</li>
+          <li class="skill__listItem">Java</li>
+        </ul>
+        <div class="skill__boxItem">
+          <ul class="skill__list">
+            <li class="skill__listItem">Git</li>
+            <li class="skill__listItem">Sass</li>
+            <li class="skill__listItem">BEM</li>
+            <li class="skill__listItem">Node.js</li>
+            <li class="skill__listItem">npm</li>
+            <li class="skill__listItem">gulp</li>
+            <li class="skill__listItem">Yarn</li>
+            <li class="skill__listItem">React</li>
+            <li class="skill__listItem">WordPress</li>
+          </ul>
+          <p class="skill__listStudy">→ Studying</p>
+        </div>
+      </div>
 
     </article>
-    <button>→ See my Portfolio</button>
+
+    <div class="main__buttonBox"><button class="main__button">→ See my portfolio</button></div>
 
 
   </main>
-  <footer>
-    <h1>Rika’s Portfolio</h1>
-    <ul>
-      <li>About</li>
-      <li>Portfolio</li>
-    </ul>
-    <small>Rika Higuchi ©︎ 2019, All rights reserved.</small>
+  <footer class="footer">
+    <div class="footer__box">
+      <h1 class="footer__title"><a href="">Rika’s Portfolio</a></h1>
+      <ul class="footer__list">
+        <li class="footer__listItem"><a href="">About</a></li>
+        <li class="footer__listItem"><a href="">Portfolio</a></li>
+      </ul>
+      <p class="footer__sns"><a href="#"><img src="dist/img/facebook.svg" alt="Facebook"></a></p>
+    </div>
+    <p class="footer__copyright"><small>Rika Higuchi ©︎ 2019, All rights reserved.</small></p>
   </footer>
+
+
+
 
 
 

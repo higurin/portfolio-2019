@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="417.681" height="427.218" viewBox="0 0 417.681 427.218">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcb900"/>
+      <stop offset="1" stop-color="#fa709a"/>
+    </linearGradient>
+    <filter id="パス_3" x="0" y="0" width="417.681" height="427.218" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="blob-shape_6_" data-name="blob-shape (6)" transform="translate(188.549 246.51)">
+    <g transform="matrix(1, 0, 0, 1, -188.55, -246.51)" filter="url(#パス_3)">
+      <path id="パス_3-2" data-name="パス 3" d="M166.7-139.6c42,59.5,63.9,128.4,48.5,185.9-15.3,57.6-68,103.9-121.3,117.7-53.4,13.8-107.5-4.8-160.3-29.1S-170.8,80.7-178.5,42.1s28.3-85.9,65.4-144.2c37-58.3,75.1-127.6,125.2-137.2C62.3-249,124.6-199,166.7-139.6Z" transform="translate(188.55 246.51)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
