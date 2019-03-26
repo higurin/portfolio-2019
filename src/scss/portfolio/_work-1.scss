@@ -1,0 +1,48 @@
+.work{
+    a{
+        color:$color-black;
+        text-decoration: none;
+    }
+    margin-bottom: 300px;
+    &__title{
+        font-family:  $font-mincho;
+        font-size: $font-size-h1;
+        z-index: 1;
+    }
+    &__text{
+        z-index: 1;
+
+    }
+    &__fig{
+        // shadow
+        img{
+            display: inline-block;
+            position: relative;
+            box-shadow: $shadow-4;
+            z-index: 2;
+        }
+    }
+
+
+    display: flex;
+    justify-content: center;
+    &__left{
+        order: 1;
+        width: 45%;
+        position: relative;
+        right: -50px;
+        img{
+            width: 100%;
+        }
+    }
+    &__right{
+        order: 2;
+        width: 45%;
+        position: relative;
+        left: -50px;
+        img{
+            width: 100%;
+        }
+    }
+}
+

@@ -16,12 +16,32 @@
 
     &__title{
         font-size: 54px;
-
     }
     &__text{
         font-size: 28px;
         color: #FEAD06;
     }
+
+    &__box-1{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+
+    }
+    &__title-1{
+        font-family:  $font-mincho;
+        font-size: $font-size-h1;
+        padding-left: 100px;
+    }
+    &__text-1{
+        padding-left: 100px;
+        margin-bottom: 100px;
+    }
+
+
+
 
     &__button{
         margin-top: 100px;
